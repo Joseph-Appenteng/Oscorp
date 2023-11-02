@@ -13,9 +13,9 @@ $result = $connection->query($query);
 
 <section class="onzesdgs">
     <div class="sdgtekst">Welkom bij de SDG's
-        <p>De SDG-game is een online spel over de 17 duurzame ontwikkelingsdoelen. Dit online spel daagt studenten
-            uit zich te verdiepen in de SDG’s en om challenges uit te voeren zodat zij kennis maken met alle SDG’s
-            volgens de Nederlandse maatstaven.</p>
+        <p>De Duurzame Ontwikkelingsdoelen zijn wereldwijd bekend als de Sustainable Development Goals (SDG’s).Met deze
+            doelen willen zij in 2030 een duurzame wereld voor iedereen bereiken, waarin niemand wordt buitengesloten.
+            De doelen gelden voor alle landen en voor alle mensen.</p>
     </div>
     <div id="results">
         <?php

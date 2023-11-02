@@ -190,7 +190,7 @@ footer {
   content: "";
   height: 2px;
   width: 15%;
-  background: rgb(223, 0, 0);
+  background: rgb(34, 185, 209, 100%);
   top: -10px;
 }
 .left .content p {
@@ -213,7 +213,7 @@ footer {
   transition: 0.3s;
 }
 .left .content .social a span:hover {
-  background: rgb(223, 0, 0);
+  background:rgb(34, 185, 209, 100%);
 }
 .center .content .fab {
   font-size: 1.4375rem;
@@ -240,14 +240,10 @@ footer {
 }
 
 .center .content .fas:hover {
-  background: rgb(223, 0, 0);
+  background:rgb(34, 185, 209, 100%);
   transform: scale(1.7);
 }
 
-.center .content .fab:hover {
-  background: rgb(223, 0, 0);
-  transform: scale(1.7);
-}
 .center .content .text {
   font-size: 2rem;
   font-weight: 500;
