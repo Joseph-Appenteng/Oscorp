@@ -22,10 +22,10 @@
     if (isset($_GET['id'])) {
         $sdgIndex = $_GET['id'];
 
-        // Crie uma conexão com o banco de dados usando as constantes definidas em config.php
+
         $connection = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
 
-        // Verifique se há erros na conexão
+  
         if ($connection->connect_error) {
             die("Erro na conexão com o banco de dados: " . $connection->connect_error);
         }

@@ -13,6 +13,9 @@ body {
   font-size: 2rem;
   background:  #22b8d1;
   font-family: sans-serif;
+  animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 1s;
 }
 
 p{
@@ -126,21 +129,151 @@ p{
   transform: scale(1.2);
 }
 
+.h3{
+  color: black;
+  font-size: 5rem;
+  font-family: "Pacifico", cursive;
+  margin-left: 6rem;
+}
+
+footer {
+  position: relative;
+  margin-top: 10rem;
+  height: 50rem;
+  width: 100%;
+  background-color: rgb(227, 227, 227);
+}
+
+.main-content {
+  display: flex;
+}
+.main-content .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+.content img {
+  height: 20rem;
+  width: 30rem;
+  margin-left: 2rem;
+  background-color: white;
+  margin: 2rem;
+  display: flex;
+  border-radius: 2rem;
+}
+
+.content a {
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.box h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+}
+.box .content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: black;
+}
+.box .content:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 15%;
+  background: rgb(223, 0, 0);
+  top: -10px;
+}
+.left .content p {
+  text-align: justify;
+}
+.left .content .social {
+  margin: 20px 0 0 0;
+}
+.left .content .social a {
+  padding: 0 2px;
+}
+.left .content .social a span {
+  height: 40px;
+  width: 40px;
+  background: white;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover {
+  background: rgb(223, 0, 0);
+}
+.center .content .fab {
+  font-size: 1.4375rem;
+  background: white;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.center .content .fas {
+  font-size: 1.4375rem;
+  background: white;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.center .content .fas:hover {
+  background: rgb(223, 0, 0);
+  transform: scale(1.7);
+}
+
+.center .content .fab:hover {
+  background: rgb(223, 0, 0);
+  transform: scale(1.7);
+}
+.center .content .text {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-left: 10px;
+  color: black;
+}
+
+h2,
+a {
+  color: black;
+}
+
+.content p {
+  color: black;
+}
+
+.center .content .phone {
+  margin: 15px 0;
+}
+
 @keyframes away {
   from {
     transform: scaleX(1);
   }
   to {
     transform: scaleX(0);
-  }
-}
-
-@keyframes popup {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
   }
 }
 
