@@ -46,7 +46,9 @@ p {
   cursor: pointer;
   align-items: center;
 }
-
+.menu a {
+  text-decoration: none;
+}
 .sdgtekst p {
   font-family: sans-serif;
   font-size: 2rem;
