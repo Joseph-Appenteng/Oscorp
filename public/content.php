@@ -4,7 +4,7 @@ include '../source/config.php';
 $connection = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
 
 if ($connection->connect_error) {
-    die("Erro na conexão com o banco de dados: " . $connection->connect_error);
+    die("Fout bij het verbinden met de database: " . $connection->connect_error);
 }
 
 $query = "SELECT * FROM Sdg ORDER BY RAND() LIMIT 3";
@@ -18,6 +18,13 @@ $result = $connection->query($query);
             De doelen gelden voor alle landen en voor alle mensen.</p>
     </div>
     <div id="results">
+        <a href="index.php" class="arrow-game">
+            <i class="fa-solid fa-circle-arrow-left"></i>
+        </a>
+        <a href="index.php" class="arrow-game-right">
+            <i class="fa-solid fa-circle-arrow-right"></i>
+        </a>
+
         <?php
         if ($result) {
             while ($row = $result->fetch_assoc()) {
@@ -32,7 +39,7 @@ $result = $connection->query($query);
                 <?php
             }
         } else {
-            echo "Erro na consulta: " . $connection->error;
+            echo "Queryfout: " . $connection->error;
         }
         $connection->close();
         ?>
