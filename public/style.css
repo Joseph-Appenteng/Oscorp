@@ -129,6 +129,7 @@ p {
 
 .cta-button:hover {
   transform: scale(1.2);
+  background-color: rgb(34, 185, 209, 100%);
 }
 
 .h3 {
@@ -271,10 +272,12 @@ a {
   margin-top: 2rem;
   margin-bottom: 4rem;
   font-size: 8rem;
+  font-family: "Pacifico", cursive;
   display: block;
 }
 
 .sdg-subtitle2 {
+  font-family: "Pacifico", cursive;
   font-size: 5rem;
   margin-bottom: 2rem;
 }
@@ -312,58 +315,10 @@ a {
   max-width: 77rem;
   margin-left: 5rem;
 }
-
-.sdg-title2 {
-  margin-left: 10rem;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
-  font-size: 8rem;
-  display: block;
-}
-
-.sdg-subtitle2 {
-  font-size: 5rem;
-  margin-bottom: 2rem;
-}
-
-.sdg-text2 {
-  display: flex;
-  flex-direction: column;
-  max-width: 80rem;
-  margin-left: 10rem;
-}
-
-.sdg-article2 {
-  display: flex;
-  margin-top: 10rem;
-}
-
-.sdg-image2-2 {
-  height: 45rem;
-  margin-left: 10rem;
-}
-
-.sdg-article2-2 {
-  display: flex;
-  margin-top: 10rem;
-  margin-bottom: 5rem;
-}
-
-.sdg-image2-22 {
-  height: 45rem;
-  width: 55rem;
-  margin-left: 7rem;
-}
-
-.sdg-text2-2 {
-  max-width: 77rem;
-  margin-left: 5rem;
-}
-
 
 .sdg-container {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   align-items: center;
   padding: 2rem;
 }
@@ -384,6 +339,7 @@ a {
 }
 
 .sdg-title {
+  font-family: "Pacifico", cursive;
   font-size: 5rem;
   margin: 5rem;
   display: flex;
@@ -400,6 +356,7 @@ a {
 }
 
 .sdg-subtitle {
+  font-family: "Pacifico", cursive;
   font-size: 3rem;
   margin-bottom: 2rem;
   text-align: center;

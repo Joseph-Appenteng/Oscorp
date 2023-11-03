@@ -44,7 +44,7 @@ $result = $connection->query($query);
         $connection->close();
         ?>
     </div>
-    <div> <a class="cta-button" href="https://sdggame.nl/">Start Game! <i class="fas fa-person-breastfeeding"></i></a>
+    <div> <a class="cta-button" href="https://sdggame.nl/">Start Game!<i class="fa-solid fa-gamepad"></i></a>
     </div>
 
 
