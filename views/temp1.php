@@ -20,4 +20,6 @@
         </p>
 
     </div>
+   
 </div>
+<div> <a class="cta" href="https://sdggame.nl/">Start Game!<i class="fa-solid fa-gamepad"></i></a>
