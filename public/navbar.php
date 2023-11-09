@@ -2,8 +2,8 @@
     <nav class="navbar">
     <a href="index.php"><img src="img/logo.webp"/></a>
         <ul class="menu">
-            <li><a href="#content">Over ons</li></a>
-            <li><a href="#footer">Contact</li></a>
+            <li><a href="#content">Over ons</a></li>
+            <li><a href="#footer">Contact</a></li>
         </ul>
     </nav>
 </header>
