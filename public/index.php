@@ -19,6 +19,4 @@
     <?php include('../public/footer.php'); ?>
 </body>
  
-</html><?php
-
-?>
+</html>
