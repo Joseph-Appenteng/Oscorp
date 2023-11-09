@@ -1,5 +1,5 @@
 <footer id="footer">
-    <div class="main-content">
+    <main class="main-content">
         <div class="left box">
             <h2>Services</h2>
             <div class="content">
@@ -28,5 +28,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 </footer>
