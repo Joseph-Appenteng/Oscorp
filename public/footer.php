@@ -5,8 +5,8 @@
         <div class="content">
           <a href="https://www.sdgnederland.nl/">Voorwaarden</a>
           <a href="https://www.sdgnederland.nl/">FAQ</a>
-          <a href="https://www.sdgnederland.nl/"> <img src="img/logosdg.webp"
-              alt="een logo van sdg Nederland"></a>
+          <a href="https://www.sdgnederland.nl/"></a> <img src="img/logosdg.webp"
+              alt="een logo van sdg Nederland">
           <div class="social">
             <a href="https://www.facebook.com/sdgnederland/"><span class="fab fa-facebook-f"></span></a>
             <a href="https://twitter.com/sdgnederland"><span class="fab fa-twitter"></span></a>
