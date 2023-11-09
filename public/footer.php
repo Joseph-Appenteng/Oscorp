@@ -5,7 +5,6 @@
             <div class="content">
                 <a href="https://www.sdgnederland.nl/">Voorwaarden</a>
                 <a href="https://www.sdgnederland.nl/">FAQ</a>
-                <!-- Corrected the empty link -->
                 <img src="img/logosdg.webp" alt="een logo van sdg Nederland">
                 <div class="social">
                     <a href="https://www.facebook.com/sdgnederland/"><span class="fab fa-facebook-f"></span></a>
