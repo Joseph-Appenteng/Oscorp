@@ -13,7 +13,7 @@
             <a href="https://www.instagram.com/sdgnederland/"><span class="fab fa-instagram"></span></a>
             <a href="https://www.youtube.com/channel/UCSRZRzTvJqCy6xM-wxFbBiA"><span class="fab fa-youtube"></span></a>
           </div>
-        </div>
+      </div>
     </div>
       <div class="center box">
         <h2>Contact</h2>
